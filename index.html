@@ -24,9 +24,79 @@
      align-items:center ;
    }
 
+	.navbar{
+    padding:2;
+    font-family:Arial;
+     font-size:30px;
+  }
+
+  #topnav{
+    width:70%;
+  }
+
+#searchsub{
+  cursor:pointer;
+}
+ 
+  .searchinput{
+    cursor:text;
+  }
+
+  .search-container{
+    width:40%;
+  }
+
+  .nav-link{
+    color:white;
+    font-size:30px;
+  }
+  #brand{
+    height:100px;
+    width:90px;
+  }	
+
 	</style>
 </head>
-<body>
+<body> 
+<nav class="navbar navbar-expand-md bg-dark">
+   <a calss="navbar-brand" href="#"><img src="https://data-corporate.abs-cbn.com/corp/medialibrary/dotcom/corp%20news%20sports%202020/abs-cbn%20logo.jpg?ext=.jpg" id="brand"></a>
+
+<div id="topnav">
+      <ul class="navbar-nav">
+
+     <li class="nav-item">
+     <a class="nav-link" href="#">Home</a>
+     </li>    
+
+     <li class="nav-item">
+      <a class="nav-link" href="#">Shows</a>
+     </li>
+      <li class="nav-item">
+     <a class="nav-link" href="#">News</a>
+      </li>
+
+     <li class="nav-item">
+     <a class="nav-link" href="#">Music</a>
+     </li>
+
+     <li class="nav-item">
+     <a class="nav-link" href="#">Contact us</a>
+     </li>
+      </ul>      
+</div>
+
+
+<div class="search-container">
+	<form>
+<input type="search" placeholder="Search" name="search" class="searchinput">
+<button>type="search" class="btn-success" id="searchsub">Search</button>
+	</form>
+
+
+		
+	</form>
+	
+	
 	<center>
      <h1>BINI</h1>
     </center>
